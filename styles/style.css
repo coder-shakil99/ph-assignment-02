@@ -193,6 +193,21 @@
     font-weight: 700;
 
   }
+  .aerrow-icon{
+    margin-top: 80px;
+  }
+  .aerrow-icon span{
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    font-size: 1.8rem;
+    color: white;
+    background-color: #FEA301;
+    display: inline-block;
+    line-height: 60px;
+    margin-right: 20px;
+    cursor: pointer;
+  }
 
 
 
@@ -249,6 +264,10 @@
             font-size: 2rem;
             
         }
+        /* aerrow-btn*/
+        .aerrow-icon{
+           display: none;
+          }
 
 
   }
