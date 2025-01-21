@@ -27,6 +27,11 @@
 
   /* header-section-style */
  .header{}
+ .marquee-text{
+  padding: 3px 0;
+  background: #249FF7;
+  color: #fff;
+ }
   .navbar{
     display: flex;
     justify-content: space-between;
@@ -414,6 +419,7 @@
 
   /* Responsive For Mobile First Approach */
   @media screen and (max-width: 576px) {
+
     .navbar{
         padding:12px 15px;
         border-bottom: 0.70px solid #FEA301;
@@ -526,9 +532,6 @@
             line-height: 36px;
           }
 
-
-
-
-
-
   }
+
+/* End Mobile Responsive */
