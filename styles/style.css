@@ -327,11 +327,16 @@
 .footer-logo-title img {
   background-color: #fff;
   border-radius: 5px;
+  width: 82px;
 }
 .footer-logo-title{
   display: flex;
   color: #fff;
   gap: 10px;
+}
+.footer-logo-title h2{
+  font-size: 2.8rem;
+  line-height: 40px;
 }
 .footer-description {
   color: #fff;
@@ -393,6 +398,10 @@
 .keep-in-touch ul li:nth-child(4) a{
   background-color: #DD4B39;
 }
+
+
+
+
 
 
 
