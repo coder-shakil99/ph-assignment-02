@@ -208,6 +208,191 @@
     margin-right: 20px;
     cursor: pointer;
   }
+/* Our Stories section-style */
+.our-story{
+    padding: 60px 0;
+    background-image: url(../assets/bg.png), linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+    background-size: cover;
+}
+
+.our-story-container{
+    margin-top: 80px;
+    display: flex;
+    gap: 20px;
+}
+.our-story-left-card{
+    width: 50%;
+    background: #fff;
+    border-radius: 16px;
+    /* height: 630px; */
+}
+.our-story-image{
+    position: relative;
+}
+.our-story-image img{
+    width: 100%;
+    border-radius: 16px 16px 0 0;
+}
+.our-story-image .img-title {
+    position: absolute;
+    bottom: -9px;
+    left: 38px;
+}
+.our-story-image .img-title span{
+    background-color: #3CD8E8;
+    color: #fff;
+    padding: 14px 20px;
+    border-radius: 25px;
+    font-weight: 500;
+    line-height: 28.03px;
+
+}
+.our-story-left-content{
+    padding: 34px 38px;
+}
+.story-title{
+    font-size: 1.5rem;
+    margin-top: 62px;
+}
+.story-descripiton{
+    margin-top: 50px;
+    font-size: 0.94rem;
+    line-height: 28.76px;
+}
+
+.our-story-right-card{
+    width: 50%;
+}
+.right-card-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.card-item{
+    background-color: #fff;
+    border-radius: 16px;
+}
+.card-image-content{
+    position: relative;
+}
+.card-image-content img{
+    width: 100%;
+    border-radius: 16px 16px 0 0;
+    
+}
+.card-badge {
+  position: absolute;
+  bottom: -9px;
+  left: 25px;
+}
+.card-badge span {
+  background-color: #95B226;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-weight: 500;
+  line-height: 28.03px;
+  font-size: 0.80rem;
+}
+.card-item:nth-child(2) .card-badge span{
+  background-color: #5D58EF;
+}
+.card-inner-content {
+    padding: 50px 38px;
+}
+.card-inner-content h4{
+    font-weight: 700;
+    line-height: 28.76px;
+}
+.card-item:nth-child(5), .card-item:nth-child(6){
+  display: none;
+}
+
+.our-story-button{
+  margin-top: 80px;
+}
+.story-btn{
+  background-color: #000000;
+}
+/* Footer-section-style */
+.footer{
+  padding: 123px 0;
+  background-color: #01ACFD;
+}
+
+.footer-container{
+  display: flex;
+  gap: 180px;
+}
+.footer-logo-title img {
+  background-color: #fff;
+  border-radius: 5px;
+}
+.footer-logo-title{
+  display: flex;
+  color: #fff;
+  gap: 10px;
+}
+.footer-description {
+  color: #fff;
+  max-width: 400px;
+  margin-top: 35px;
+  font-size: 1.25rem;
+  line-height: 32px;
+  font-weight: 300;
+}
+.footer-menu{
+  color: #fff;
+}
+.footer-title{
+  font-size: 1.5rem;
+  color: #fff;
+}
+.footer-menu ul{
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.footer-menu ul li{
+  list-style: none;
+}
+.footer-menu ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.25rem;
+}
+
+.keep-in-touch{}
+.keep-in-touch ul{
+  margin-top: 32px;
+  display: flex;
+  gap: 10px;
+}
+.keep-in-touch ul li{
+  list-style: none;
+}
+.keep-in-touch ul li a {
+  display: inline-block;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 4px;
+}
+.keep-in-touch ul li:nth-child(1) a{
+  background-color: #3B5998;
+}
+.keep-in-touch ul li:nth-child(2) a{
+  background-color: #EA4C89;
+}
+.keep-in-touch ul li:nth-child(3) a{
+  background-color: #249FF7;
+}
+.keep-in-touch ul li:nth-child(4) a{
+  background-color: #DD4B39;
+}
 
 
 
@@ -268,6 +453,55 @@
         .aerrow-icon{
            display: none;
           }
+
+          /* our-story-responsive */
+          .our-story{
+            padding: 10px 0px 50px 0px;
+          }
+          .our-story-container {
+            margin-top: 24px;
+          }
+          .our-story-left-card{
+            display: none;
+          }
+          .our-story-right-card{
+            width: 100%;
+            padding: 15px;
+          }
+          .card-item:nth-child(5), .card-item:nth-child(6){
+            display: block;
+          }
+          .card-badge {
+            left: 16px;
+        }
+          .card-badge span {
+            padding: 10px 10px;
+            font-size: 0.70rem;
+          }
+          .card-inner-content h4 {
+            font-weight: 700;
+            line-height: 20.76px;
+            font-size: 0.74rem;
+          }
+          .card-inner-content {
+            padding: 27px 26px;
+          }
+          .our-story-button{
+            margin-top: 20px;
+          }
+
+          /* footer-section-responsive */
+          .footer{
+            padding: 60px 15px;
+          }
+          .footer-container{
+            flex-direction: column;
+            gap:50px;
+          }
+
+
+
+
 
 
   }
