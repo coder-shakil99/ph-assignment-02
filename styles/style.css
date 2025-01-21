@@ -342,9 +342,9 @@
   color: #fff;
   max-width: 400px;
   margin-top: 35px;
-  font-size: 1.25rem;
+  font-size: 1.15rem;
   line-height: 32px;
-  font-weight: 300;
+
 }
 .footer-menu{
   color: #fff;
@@ -410,7 +410,7 @@
   @media screen and (max-width: 576px) {
     .navbar{
         padding:12px 15px;
-        border-bottom: 1px solid #FEA301;
+        border-bottom: 0.70px solid #FEA301;
     }
     .nav-logo h1{
         display: none;
@@ -497,6 +497,11 @@
           }
           .our-story-button{
             margin-top: 20px;
+          }
+          .story-btn {
+            width: 160px;
+            padding: 5px;
+            border-radius: 12px;
           }
 
           /* footer-section-responsive */
