@@ -29,8 +29,11 @@
  .header{}
  .marquee-text{
   padding: 3px 0;
-  background: #249FF7;
+  /* background: #249FF7; */
+  background-color: #01ACFD;
   color: #fff;
+  font-weight: bold;
+  font-style: italic;
  }
   .navbar{
     display: flex;
@@ -502,11 +505,11 @@
           .card-inner-content h4 {
             font-weight: 700;
             line-height: 20.76px;
-            font-size: 0.74rem;
+            font-size: 0.65rem;
           }
           .card-inner-content {
-            padding: 27px 26px;
-          }
+            padding: 20px 20px;
+        }
           .our-story-button{
             margin-top: 20px;
           }
