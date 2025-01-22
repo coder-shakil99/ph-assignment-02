@@ -305,6 +305,18 @@
 .card-item:nth-child(2) .card-badge span{
   background-color: #5D58EF;
 }
+.card-item:nth-child(3) .card-badge span{
+  background-color: #FEA301;
+}
+.card-item:nth-child(4) .card-badge span{
+  background-color: #DD4B39;
+}
+.card-item:nth-child(5) .card-badge span{
+  background-color: #95B226;
+}
+.card-item:nth-child(6) .card-badge span{
+  background-color: #249FF7;
+}
 .card-inner-content {
     padding: 50px 38px;
 }
@@ -492,6 +504,11 @@
             width: 100%;
             padding: 15px;
           }
+          .right-card-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+        }
           .card-item:nth-child(5), .card-item:nth-child(6){
             display: block;
           }
@@ -505,7 +522,7 @@
           .card-inner-content h4 {
             font-weight: 700;
             line-height: 20.76px;
-            font-size: 0.65rem;
+            font-size: 0.60rem;
           }
           .card-inner-content {
             padding: 20px 20px;
